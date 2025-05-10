@@ -14,7 +14,8 @@ sentiment/
 ├ sentiment.py　  ・・・ 訓練の実行と評価
 ├ augment.py　    ・・・ データ拡張を用いた訓練の実行と評価
 ├ pred.py　       ・・・ 予測の出力
-└ pred_logit.py　 ・・・ 予測確率の出力
+├ pred_logit.py　 ・・・ 予測確率の出力
+└ ensemble.ipynb　・・・ 予測確率のアンサンブル
 </pre>
 
 ### 結果
@@ -44,10 +45,11 @@ sentiment/
 
 <pre>
 estimation/
-├ estimation.py　・・・ 訓練の実行
-├ eval.py　      ・・・ 評価
-├ pred.py　      ・・・ 予測の出力
-└ pred_logit.py　・・・ 予測確率の出力
+├ estimation.py　 ・・・ 訓練の実行
+├ eval.py　       ・・・ 評価
+├ pred.py　       ・・・ 予測の出力
+├ pred_logit.py　 ・・・ 予測確率の出力
+└ ensemble.ipynb　・・・ 予測確率のアンサンブル
 </pre>
 
 ### 結果

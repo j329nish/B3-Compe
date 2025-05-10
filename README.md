@@ -7,7 +7,7 @@
 - 評価指標：QWK
 
 ### 結果
-| ID | モデル | データ拡張 | 学習率 | QWK（Valid） | QWK（Test） |
+| ID | モデル | データ拡張 | 学習率 | QWK<br>（Valid） | QWK<br>（Test） |
 |-|-|-|-|-|-|
 | 1 | ku-nlp/roberta-large-japanese-char-wwm | - | 1e-06 | 0.612 | - |
 | 2 | nlp-waseda/roberta-large-japanese | - | 1e-05 | 0.622 | - |
@@ -30,7 +30,7 @@
 - 評価指標：QWK
 
 ### 結果
-| ID | モデル | H/L | 最適化手法 | QWK（Valid） | QWK（Test） |
+| ID | モデル | H/L | 最適化手法 | QWK<br>（Valid） | QWK<br>（Test） |
 |-|-|-|-|-|-|
 | 1 | microsoft/deberta-v3-large | H | AdamW | 0.912 | - |
 | 2 | microsoft/deberta-v3-large | L | AdamW | 0.898 | - |

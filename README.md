@@ -11,8 +11,8 @@
 <pre>
 sentiment/
 ├ juman-token.py　・・・ juman++の適用
-├ sentiment.py　  ・・・ 訓練の実行
-├ augment.py　    ・・・ データ拡張を用いた訓練の実行
+├ sentiment.py　  ・・・ 訓練の実行と評価
+├ augment.py　    ・・・ データ拡張を用いた訓練の実行と評価
 ├ pred.py　       ・・・ 予測の出力
 └ pred_logit.py　 ・・・ 予測確率の出力
 </pre>
@@ -39,6 +39,16 @@ sentiment/
 - テキストの難易度を6クラスに分類（1, 2, 3, 4, 5, 6）
 - 使用したデータセット：CEFR-SP [[link](https://github.com/yukiar/CEFR-SP/tree/main/CEFR-SP/Wiki-Auto)]
 - 評価指標：QWK
+
+### ファイル構成
+
+<pre>
+estimation/
+├ estimation.py　・・・ 訓練の実行
+├ eval.py　      ・・・ 評価
+├ pred.py　      ・・・ 予測の出力
+└ pred_logit.py　・・・ 予測確率の出力
+</pre>
 
 ### 結果
 | ID | モデル | H/L | 最適化手法 | QWK<br>（Valid） | QWK<br>（Test） |

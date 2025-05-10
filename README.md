@@ -6,6 +6,17 @@
 - 使用したデータセット：WRIME [[link](https://github.com/ids-cv/wrime)]
 - 評価指標：QWK
 
+### ファイル構成
+
+<pre>
+sentiment/
+├ juman-token.py　・・・ juman++の適用
+├ sentiment.py　  ・・・ 訓練の実行
+├ augment.py　    ・・・ データ拡張を用いた訓練の実行
+├ pred.py　       ・・・ 予測の出力
+└ pred_logit.py　 ・・・ 予測確率の出力
+</pre>
+
 ### 結果
 | ID | モデル | データ拡張 | 学習率 | QWK<br>（Valid） | QWK<br>（Test） |
 |-|-|-|-|-|-|

@@ -38,7 +38,7 @@ sentiment/
 ## 2. 英語の難易度推定（CEFR-SP）
 
 - テキストの難易度を6クラスに分類（1, 2, 3, 4, 5, 6）
-- 使用したデータセット：CEFR-SP [[link](https://github.com/yukiar/CEFR-SP/tree/main/CEFR-SP/Wiki-Auto)]
+- 使用したデータセット：CEFR-SP [[link](https://github.com/yukiar/CEFR-SP)]
 - 評価指標：QWK
 
 ### ファイル構成
